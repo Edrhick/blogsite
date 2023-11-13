@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+
+
+    
+<h1>Home</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum dolores fuga vel dignissimos et ex culpa? Perferendis eos eveniet dignissimos numquam dolore nobis optio distinctio pariatur inventore, dolorum totam dolores facilis eius nulla. Sit explicabo nemo dolor numquam laborum odit architecto omnis, pariatur nulla sapiente ipsam sed facilis consequatur quidem in nam deserunt molestias, ducimus obcaecati saepe aperiam minima aliquam corporis? Adipisci tempore ipsum itaque natus architecto veritatis omnis! Pariatur omnis distinctio ab sit, cumque cum non. Temporibus accusantium delectus illum ea consequuntur cumque, officia pariatur? Cumque, reprehenderit laborum iure pariatur minus quaerat laudantium dolorem voluptate, ut, temporibus autem nam aliquam aspernatur fugit voluptas fugiat ipsum quidem in tenetur sunt deleniti nisi tempora? Repudiandae dolore impedit magni! Ut, aliquid tenetur non excepturi veniam vero accusantium voluptate? Tempora vitae ex, suscipit sequi dolor magnam voluptatibus dolores cum esse quidem ipsam minima dolore assumenda ad architecto commodi nemo autem animi nihil magni repellat harum alias ab. Pariatur quisquam qui beatae placeat voluptate at dolor dolores obcaecati illum assumenda dolorem id, explicabo aliquam. Illum natus harum fuga saepe aut vitae voluptatem iste cumque? Voluptatem autem est accusamus sit? Accusamus repellat incidunt atque modi, temporibus itaque similique quisquam voluptates eligendi, assumenda quasi soluta reiciendis.</p>
+
+<div class="postStyle">
+    <% for(var i=0; i<posts.length; i++){ %>
+           <div class="postStyle">
+                <h3><%= posts[i].title %></h3>
+                <p><%= posts[i].content %></p>
+           </div>
+    <% } %>
+</div>
+
+
+<%- include("partials/footer.ejs") %>

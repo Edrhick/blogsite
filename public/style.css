@@ -1,0 +1,47 @@
+body{
+    background-color: blue;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #6f9196;
+  }
+  .header{
+    background-color: #6f9196;
+    width: 100%;
+  }
+.create{
+    color: burlywood;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-group{
+    height: 100px;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.btn{
+    margin-left: 25%;
+    width: max-content;
+}
+
+h1,p,h2{ 
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+p{
+    border-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+h3{
+    border-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
